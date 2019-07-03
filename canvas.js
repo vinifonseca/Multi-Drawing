@@ -1,11 +1,11 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyC5sR8cxX_96FE9cy7s4NxnwSDcK2__7QU",
-  authDomain: "multidrawing-86148.firebaseapp.com",
-  databaseURL: "https://multidrawing-86148.firebaseio.com",
-  projectId: "multidrawing-86148",
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
   storageBucket: "",
-  messagingSenderId: "998500767930",
-  appId: "1:998500767930:web:30da84d3ad07e2c9"
+  messagingSenderId: "",
+  appId: ""
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
