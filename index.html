@@ -1,0 +1,44 @@
+<html>
+<head>
+  <title>Multi Drawing</title>
+  <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-firestore.js"></script>
+</head>
+<body onload="InitThis();">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="canvas.js"></script>
+    <div align="center">
+        <canvas id="myCanvas" width="800" height="400" style="border:2px solid black"></canvas>
+        <br/><br/>
+        <button onclick="javascript:clearArea();return false;">Clear Area</button>
+        Line width : <select id="selWidth">
+            <option value="1">1</option>
+            <option value="3">3</option>
+            <option value="5" selected="selected">5</option>
+            <option value="7">7</option>
+            <option value="9">9</option>
+            <option value="11">11</option>
+        </select>
+        Color : <select id="selColor">
+            <option value="black" selected="selected">Black</option>
+            <option value="blue">Blue</option>
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+            <option value="yellow">Yellow</option>
+            <option value="gray">Gray</option>
+        </select>
+        <br/><br/>
+        <div>          
+          <p>
+            Multi drawing game inspirade by <a target="_blank" rel="noopener noreferrer" href="https://aggie.io/">https://aggie.io/</a>
+          </p>
+          <p>
+            Open two tabs and draw!
+          </p>
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/vinifonseca/Multi-Drawing"><img style="width: 50; height: 42" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/vinicius-navarro-fonseca-3b7ab2a6/"><img style="width: 50; height: 42" src="https://indyme.com/wp-content/uploads/2017/07/LinkedIn-Icon.png"></a>
+        </div>        
+    </div>
+</body>
+</html>
